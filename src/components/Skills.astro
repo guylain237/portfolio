@@ -1,0 +1,73 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Developpeur Full Stack</h2>
+		<p>En tant que développeur Full Stack, je crée des applications complètes, des interfaces utilisateur attrayantes avec HTML, CSS, JavaScript, et je gère la logique côté serveur avec des langages tels que Python, Java ou C#. Mon rôle est de collaborer pour réaliser des applications robustes et performantes.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Travail en Equipe</h2>
+		<p>Je collabore en équipe en utilisant des outils tels que Confluence, Discord et Trello..</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Langues parles</h2>
+		<p>Ma langue maternelle est le français et je possède un niveau A2 en anglais, avec une progression continue.</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Esprit stratégique</h2>
+		<p>Mon esprit stratégique se reflète dans ma capacité à analyser les situations, anticiper les conséquences et élaborer des plans d'action efficaces pour atteindre les objectifs à long terme..</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Loisirs</h2>
+		<p>Je suis passionné de football, j'adore faire du vélo et je m'amuse beaucoup avec les jeux d'équipe.</p>
+	</div>
+	
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
