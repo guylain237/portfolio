@@ -4,13 +4,13 @@ publishDate: 2020-03-04 00:00:00
 img: /assets/a.jpg
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
- Le projet de stage est axé sur la création d'un site e-commerce. Il nécessite le développement d'un back-end en Java avec Spring Boot et d'un front-end en ReactJS. Ces composants interagiront avec une base de données PostgreSQL. L'avancement de ce projet se fait en étroite collaboration avec une équipe de trois développeurs.
+ En tant que développeur  chez Kraft, je suis responsable de la conception et du développement complet de notre plateforme de web TV, intégrant des contenus multimédias pour offrir une expérience utilisateur optimale. Mon travail inclut la maintenance continue, la sécurité et l'innovation technologique pour garantir une performance exceptionnelle.
 tags:
   - Design
   - Developpement
-  - Frontend
-  - api-backend 
   - equipe
+
+  
 ---
 
 ### **À propos de l'Entreprise** 
